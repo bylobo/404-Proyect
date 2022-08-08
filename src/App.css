@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.description{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  font-size: 4rem;
+  font-family: 'Space Mono', monospace;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.the-page{
+  font-size: 24px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
 }
+
+.not-found{
+  font-family: 'Inconsolata', monospace;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+button{
+  background-color: #333;
+  cursor: pointer;
+  font-family: 'Space Mono', monospace;
+  padding: 15px 25px;
+  margin-top: 50px
+}
+
+@media screen and (max-width: 500px){
+  .description{
+    margin-top: 100px;
+  }
+  
+  h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .the-page{
+    font-size: 18px;
+    text-align: center;
+  }
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Outfit:wght@400;700&family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Outfit:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
