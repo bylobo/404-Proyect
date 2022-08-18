@@ -1,0 +1,59 @@
+/*Estilos general*/
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+  
+  h1{
+    font-size: 4rem;
+    font-family: 'Space Mono', monospace;
+  }
+  
+  .the-page{
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+  }
+  
+  .not-found{
+    font-family: 'Inconsolata', monospace;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  
+  button{
+    background-color: #333;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    padding: 15px 25px;
+    margin-top: 50px
+  }
+  
+  /*Media Queries*/
+  
+  @media screen and (max-width: 500px){
+    .description{
+      margin-top: 100px;
+    }
+    
+    h1{
+      font-size: 3rem;
+      text-align: center;
+    }
+  
+    .the-page{
+      font-size: 18px;
+      text-align: center;
+    }
+  
+  }
+  
+  /*Familias tipograficas de Google Fonts*/
+  
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Outfit:wght@400;700&family=Space+Mono:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Outfit:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+
